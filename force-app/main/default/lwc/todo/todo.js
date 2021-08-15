@@ -32,7 +32,8 @@ export default class Todo extends LightningElement {
         this.newTask = event.target.value;
     }
 
-    /*
+    /*  
+    *   Shiva Modified some code here
     *   This method is used to add the value of new task variable
     *   to the list of todo tasks. It'll also clear the input field
     *   by clearing the value of newTask variable after it has been added to list
